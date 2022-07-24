@@ -15,6 +15,7 @@ Feature: Free CRM Login Feature
     And I provide password as "password"
     And I click on login button
     Then I verify that homepage is open with title is "title_is_this"
+    And I verify logo
 
     Examples:
       |url                 |username|password|title_is_this|
